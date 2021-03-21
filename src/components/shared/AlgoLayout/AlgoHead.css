@@ -1,0 +1,37 @@
+.algo-head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.dropdown-arrow {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.algo-selection {
+    position: absolute;
+    backdrop-filter: brightness(0.25) blur(5px);
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1%;
+}
+
+.algo-head-container h2,
+.algo-head-container h3 {
+    cursor: pointer;
+}
+
+.algo-head-container h2:hover {
+    transform-origin: center;
+    animation: reactive 200ms ease-out forwards;
+}
+
+@keyframes reactive {
+    to {
+        transform: scale(1.25) translateX(150px);
+    }
+}

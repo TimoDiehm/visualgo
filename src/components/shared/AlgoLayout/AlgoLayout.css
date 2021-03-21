@@ -1,0 +1,15 @@
+.algo-layout-container {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.wrapper {
+    background-color: var(--bg-color);
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    min-height: 1600px;
+
+    opacity: 0; /* THAT ANIMATION STARTS WITH NO BLACK SCREEN */
+}

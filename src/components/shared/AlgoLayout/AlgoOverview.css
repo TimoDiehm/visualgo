@@ -1,0 +1,39 @@
+.algo-overview {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.intro-container {
+    max-width: 45%;
+}
+
+.intro-container p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.complexity-container {
+    text-align: right;
+    position: relative;
+    width: 30rem;
+    height: fit-content;
+    z-index: 1;
+}
+
+.complexity-box {
+    position: absolute;
+    text-align: left;
+    width: 30rem;
+    backdrop-filter: brightness(0.75) blur(5px);
+    /* background-color: var(--bg-color); */
+}
+
+.complexity-box:hover {
+    cursor: none;
+}
+
+.complexity-box h4 {
+    margin: 7px 0 10px;
+}
