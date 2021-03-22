@@ -57,7 +57,7 @@ const newSticks = (numberOfSticks) => {
     
 } */
 const AlgoLayout = ({ algosType, algos }) => {
-    const [currentAlgo, setCurrentAlgo] = useState(algos[2].name);
+    const [currentAlgo, setCurrentAlgo] = useState(algos[0].name);
 
     const [sticksAmount, setSticksAmount] = useState(50);
     const [sticks, setSticks] = useState(newSticks(sticksAmount));
@@ -124,6 +124,10 @@ const AlgoLayout = ({ algosType, algos }) => {
                 />
                 <AlgoExplanation explanation={currentAlgoData.explanation} />
                 <AlgoCode code={currentAlgoData.code} />
+                <hr style={{ backgroundColor: 'white', marginTop: '30px' }} />
+                <div style={{ height: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <h3>Copyright {new Date(Date.now()).getFullYear()} Timo Diehm</h3>
+                </div>
             </div>
         </div>
     );

@@ -29,7 +29,7 @@ const AlgoHead = ({ currentAlgo, algos, changeAlgoHandler }) => {
                     </div>
                 )}
             </div>
-            <h3>Home</h3>
+            {/* <h3>Home</h3> */}
         </div>
     );
 };

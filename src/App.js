@@ -17,9 +17,12 @@ function App() {
     );
 
     return (
-        <Router>
-            <Suspense fallback={<div>Loading Screen..</div>}>{routes}</Suspense>
-        </Router>
+        // <Router>
+        //     <Suspense fallback={<div>Loading Screen..</div>}>{routes}</Suspense>
+        // </Router>
+        <div>
+            <SortingAlgos />
+        </div>
     );
 }
 
