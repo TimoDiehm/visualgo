@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/visualgo/static/css/main.56a52da0.chunk.css",
-    "main.js": "/visualgo/static/js/main.626b03f2.chunk.js",
-    "main.js.map": "/visualgo/static/js/main.626b03f2.chunk.js.map",
+    "main.js": "/visualgo/static/js/main.cf29038f.chunk.js",
+    "main.js.map": "/visualgo/static/js/main.cf29038f.chunk.js.map",
     "runtime-main.js": "/visualgo/static/js/runtime-main.c31cc7cc.js",
     "runtime-main.js.map": "/visualgo/static/js/runtime-main.c31cc7cc.js.map",
     "static/js/2.c915bd2b.chunk.js": "/visualgo/static/js/2.c915bd2b.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c31cc7cc.js",
     "static/js/2.c915bd2b.chunk.js",
     "static/css/main.56a52da0.chunk.css",
-    "static/js/main.626b03f2.chunk.js"
+    "static/js/main.cf29038f.chunk.js"
   ]
 }
